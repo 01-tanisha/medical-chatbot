@@ -5,3 +5,4 @@ flask
 pypdf
 python-dotenv
 langchain_huggingface
+langchain-community
