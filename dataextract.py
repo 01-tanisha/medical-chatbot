@@ -264,4 +264,5 @@ if __name__ == '__main__':
     # Ensure the 'model' directory exists for your Llama model
     os.makedirs('model', exist_ok=True) 
     init_db() # ← Call this to ensure DB table exists
+    load_dotenv()
     app.run(host="127.0.0.1", port=5050)
